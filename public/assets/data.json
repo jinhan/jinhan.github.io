@@ -1,0 +1,70 @@
+{
+    "about":{
+        "name":"Jinhan Choi",
+        "title":"PhD Candidate in Information Studies @ Seoul National University",
+        "email":"jinhanchoi at snu.ac.kr",
+        "address":"",
+        "photos":["/assets/photos/profile0.png","/assets/photos/profile1.png"],
+        "cv":"/assets/resume.pdf",
+        "linkedin":"https://www.linkedin.com/in/jinhan-choi/",
+        "scholar":"https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ",
+        "github":"https://github.com/jinhan",
+        "description":"I am a Ph.D. candidate in information studies at Seoul National University, South Korea. And I am under the guidance of Prof. Bongwon Suh. I was a research intern in Conversational AI Team at Artificial Intelligence Research Institute in South Korea. My research interests include Human-Computer Interaction, Visualization and Machine Learning."
+    },
+    "news":[
+        {
+            "title": "\"Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation\" is published on Educational Technology Research & Development.",
+            "date": "Feb 10, 2020"
+        },
+        {
+            "title": "\"Understanding User Perception of Automated News Generation System\" is conditionally accepted to CHI 2020.",
+            "date": "Dec 13, 2019"
+        },
+        {
+            "title": "\"Leveraging Smartwatches to Estimate Students’ Perceived Difficulty and Interest in Online Video Lectures\" is accepted to ICETC 2019.",
+            "date": "Aug 5, 2019"
+        },
+        {
+            "title": "Joined the Conversational AI team at Artificial Intelligence Research Institute (AIRI) as a research intern.",
+            "date": "Jan 13, 2019"
+        },
+        {
+            "title": "My team won the First Prize in Movie Review Prediction at NAVER AI Hackathon 2018.",
+            "date": "Apr 27, 2018"
+        },
+        {
+            "title": "The \"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" paper won an Honourable Mention Award at CHI 2018.",
+            "date": "Feb 9, 2018"
+        },
+        {
+            "title": "\"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" is conditionally accepted to CHI 2018.",
+            "date": "Nov 17, 2017"
+        }			
+    ],
+    "projects":[
+        {
+            "id":"automatednews",
+            "title": "Understanding User Perception of Automated News Generation System",
+            "authors": "Changhoon Oh, Jinhan Choi, Sungwoo Lee, SoHyun Park, Daeryong Kim, Jungwoo Song, Dongwhan Kim, Joonhwan Lee, Bongwon Suh",
+            "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2020",
+            "desc": "Automated journalism refers to the generation of news arti- cles using computer programs. Although it is widely used in practice, its user experience and interface design remain largely unexplored. To understand the user perception of an automated news system, we designed NewsRobot, a research prototype that automatically generated news on major events of the PyeongChang 2018 Winter Olympic Games in real-time. It produces six types of news by combining two kinds of con- tent (general/individualized) and three styles (text, text+image, text+image+sound). A total of 30 users participated in us- ing NewsRobot, completing surveys and interviews on their experience. Our findings are as follows: (1) Users preferred individualized news yet considered it less credible, (2) more presentation elements were appreciated but only if their qual- ity was assured, and (3) NewsRobot was considered factual and accurate yet shallow in depth. Based on our findings, we discuss implications for designing automated journalism user interfaces.",
+            "teaser": "/assets/automatednews/teaser.png"
+        },
+        {
+            "id":"smartwatches",
+            "title": "Leveraging Smartwatches to Estimate Students' Perceived Difficulty and Interest in Online Video Lectures",
+            "authors": "Jinhan Choi, Jeongyun Han, Woochang Hyun, Hyunchul Lim, Sun Young Huh, SoHyun Park, Bongwon Suh",
+            "source": "Proceedings of the 2019 11th International Conference on Education Technology and Computers(ICETC), 2019",
+            "desc": "Online videos have become a popular medium for delivering educational materials. Analyzing video interaction log can provide valuable educational insights. However, for small-sized online courses, due to the small size of samples, analyzing online log is often not enough for modeling students' learning behaviors. In this study, we aim to explore the feasibility of utilizing commercial smartwatches to augment building of such models. We collected online video interaction log as well as physiological data from smartwatches and built models to estimate the perceived difficulty and interest of students while watching online video lectures. The results show that smartwatch data could significantly improve the amount of explained variance in their perceived difficulty and interest by 100% and 64% respectively. We hope the result could inform the application of a smartwatch for students' in online video learning.",
+            "teaser": "/assets/smartwatches/teaser.png"
+        },
+        {
+            "id":"cocreation",
+            "title": "🏅 I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
+            "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
+            "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2018 Honorable Mention Award",
+            "desc": "Recent advances in artificial intelligence (AI) have increased the opportunities for users to interact with the technology. Now, users can even collaborate with AI in creative activities such as art. To understand the user experience in this new user– AI collaboration, we designed a prototype, DuetDraw, an AI interface that allows users and the AI agent to draw pictures collaboratively. We conducted a user study employing both quantitative and qualitative methods. Thirty participants per- formed a series of drawing tasks with the think-aloud method, followed by post-hoc surveys and interviews. Our findings are as follows: (1) Users were significantly more content with DuetDraw when the tool gave detailed instructions. (2) While users always wanted to lead the task, they also wanted the AI to explain its intentions but only when the users wanted it to do so. (3) Although users rated the AI relatively low in predictability, controllability, and comprehensibility, they en- joyed their interactions with it during the task. Based on these findings, we discuss implications for user interfaces where users can collaborate with AI in creative works.",
+            "teaser": "/assets/cocreation/teaser.png"
+        }
+    ]
+}
