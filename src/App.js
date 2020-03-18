@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Route, useHistory } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-// import logo from './logo.svg';
 import './App.css';
 import Navbar from 'components/Navbar';
 import MainPage from 'components/MainPage';

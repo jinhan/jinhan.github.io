@@ -9,7 +9,7 @@ function Navbar(){
 
     let location = useLocation();
     var isProject = location.pathname.includes('/project');
-    // console.log(isProject);
+
     return (
         <nav>
             <ul>

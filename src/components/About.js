@@ -1,5 +1,5 @@
 import sample from 'lodash/sample';
-import React, { useContext } from 'react';
+import React from 'react';
 import css from 'index.css';
 import Grid from '@material-ui/core/Grid';
 
