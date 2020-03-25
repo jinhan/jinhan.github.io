@@ -10,15 +10,16 @@ export default function About(props){
             <div className={css.row}>
                 <Grid container>
                     <Grid item xs={6}>
-                        <center><img className={"profile-img"} src={sample(props.about.photos)} /></center><br />
-                        <strong>{props.about.title}</strong><br />
-                        {props.about.email}<br />
-                        <a href={props.about.linkedin} target="_blank"><i className="fab fa-linkedin"></i></a> |
-                        <a href={props.about.scholar} target="_blank"><i className="fas fa-graduation-cap"></i> Google Scholar</a> |
-                        <a href={props.about.github} target="_blank"><i className="fab fa-github"></i></a><br />
+                        <center><img className={"profile-img"} src={sample(props.about.photos)} /></center>
                     </Grid>
                     <Grid item xs={6}>
                         <p>{props.about.description}</p>
+                        <br />
+                        <a href="mailto:jinhanchoi@snu.ac.kr" target="_top"> <i class="fas fa-envelope"></i></a> |
+                        <a href={props.about.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a> |
+                        <a href={props.about.github} target="_blank"> <i className="fab fa-github"></i></a> |
+                        <a href={props.about.scholar} target="_blank"> <i className="fas fa-graduation-cap"></i> Google Scholar</a>
+                        <br />
                     </Grid>
                 </Grid>
             </div>

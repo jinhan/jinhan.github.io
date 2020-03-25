@@ -44,13 +44,19 @@ import Grid from '@material-ui/core/Grid';
 export default function Projects(props){
     return (
         <section id={"projects"}>
-            <h1 className={"title"}>Projects</h1>
+            <h1 className={"title"}>Publications</h1>
             <div className={"project-list"}>
                 {ProjectItems(props.projects)}
             </div>
         </section>
     );
 }
+
+const materials = (d) => d.materials.map((m) => 
+    <span>
+        <a href={m.path} target="_blank"><i class="fas fa-file-alt"></i> {m.label}</a>
+    </span>
+);
 
 export function ProjectItems(items){
     let projects = Object.values(items);
@@ -61,15 +67,18 @@ export function ProjectItems(items){
                 <Grid item xs={6}>
                 {/* <div className={"col-6"}> */}
                     <div className={"project-title"}>
-                        {/* <a href={"/project/" + d.id}><strong>{d.title}</strong></a> */}
-                        {/* <Link to={`/project=${d.id}`} onClick={News}><strong>{d.title}</strong></Link> */}
-                        <Link to={`/project/${d.id}`}><strong>{d.title}</strong></Link>
+                        {/* <Link to={`/project/${d.id}`}><strong>{d.title}</strong></Link> */}
+                        <Link><strong>{d.title}</strong></Link>
+                        {/* <strong>{d.title}</strong> */}
                     </div>
                     <div className={"project-authors"}>
                         {d.authors}<br/>
                     </div>
                     <div className={"project-source"}>
                         <em>{d.source}</em>
+                    </div>
+                    <div class="project-materials">
+                        {materials(d)}
                     </div>
                 {/* </div>  */}
                 </Grid>

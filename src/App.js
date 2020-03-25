@@ -27,7 +27,7 @@ function App() {
       {loading ? <div>Loading...</div> :
         <DataContext.Provider value={data}>
           <BrowserRouter basename={process.env.PUBLIC_URL}>
-            <Navbar />
+            {/* <Navbar /> */}
             <Route exact path="/" component={MainPage} />
             <Route path="/project/:id" component={ProjectPage} />
           </BrowserRouter>

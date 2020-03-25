@@ -7,7 +7,7 @@ export default function News(props){
     function NewsItems(){
         let news = newsItems;
         news = news.slice(0,5);
-        console.log(news);
+        // console.log(news);
         return news.map(d => (
             <div className={"row"}>
                 <div className={"col-8"}>
@@ -22,7 +22,7 @@ export default function News(props){
 
     function handleNewsFilter(data){
         newsSearchRef.current.addEventListener('input', function(event){
-            console.log('value', this.value);
+            // console.log('value', this.value);
             if (this.value !== ''){
                 let filtered = data.news.filter(d => {
                     let text = (d.title + ' ' + d.date);
@@ -41,7 +41,7 @@ export default function News(props){
         handleNewsFilter(props);
     }, []);
 
-    console.log(props);
+    // console.log(props);
     return (
         <section id="news">
             <h1 className={"title"}>News</h1>
