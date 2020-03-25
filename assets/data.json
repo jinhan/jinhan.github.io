@@ -43,28 +43,60 @@
     ],
     "projects":[
         {
-            "id":"automatednews",
+            "id":"etrd20",
+            "title": "Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation",
+            "authors": "Jeongyun Han, Sun Young Huh, Young Hoan Cho, SoHyun Park, Jinhan Choi, Bongwon Suh, Wonjong Rhee",
+            "source": "Educational Technology Research and Development, 2020",
+            "desc": "This study investigates the possibility of utilizing online learning data to design face-to-face activities in a flipped classroom. We focus on heterogeneous group formation for effective collaborative learning. Fifty-three undergraduate students (18 males, 35 females) participated in this study, and 8 students (3 males, 5 females) among them joined post-study interviews. For this study, a total of 6 student characteristics were used: three demographic characteristics obtained from a simple survey and three academic characteristics captured from online learning data. We define three demographic group heterogeneity variables and three academic group heterogeneity variables, where each variable is calculated using the corresponding student characteristic. In this way, each heterogeneity variables represents a degree of diversity within the group. Then, a two-stage hierarchical regression analysis was conducted to identify the significant group heterogeneity variables that influence face-to-face group achievement. The results show that the academic group heterogeneity variables, which were derived from the online learning data, accounted for a significant proportion of the variance in the group achievement when the demographic group heterogeneity variables were controlled. The interviews also reveal that the academic group heterogeneity indeed affected group interaction and learning outcome. These findings highlight that online learning data can be utilized to obtain relevant information for effective face-to-face activity design in a flipped classroom. Based on the results, we discuss the advantages of this data utilization approach and other implications for face-to-face activity design.",
+            "teaser": "/assets/etrd20/teaser.png",
+            "materials":[
+                {
+                    "label":"paper",
+                    "path":"https://link.springer.com/article/10.1007/s11423-020-09743-y"
+                }
+            ]
+        },
+        {
+            "id":"chi20",
             "title": "Understanding User Perception of Automated News Generation System",
             "authors": "Changhoon Oh, Jinhan Choi, Sungwoo Lee, SoHyun Park, Daeryong Kim, Jungwoo Song, Dongwhan Kim, Joonhwan Lee, Bongwon Suh",
             "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2020",
             "desc": "Automated journalism refers to the generation of news arti- cles using computer programs. Although it is widely used in practice, its user experience and interface design remain largely unexplored. To understand the user perception of an automated news system, we designed NewsRobot, a research prototype that automatically generated news on major events of the PyeongChang 2018 Winter Olympic Games in real-time. It produces six types of news by combining two kinds of con- tent (general/individualized) and three styles (text, text+image, text+image+sound). A total of 30 users participated in us- ing NewsRobot, completing surveys and interviews on their experience. Our findings are as follows: (1) Users preferred individualized news yet considered it less credible, (2) more presentation elements were appreciated but only if their qual- ity was assured, and (3) NewsRobot was considered factual and accurate yet shallow in depth. Based on our findings, we discuss implications for designing automated journalism user interfaces.",
-            "teaser": "/assets/automatednews/teaser.png"
+            "teaser": "/assets/chi20/teaser.png",
+            "materials":[
+                {
+                    "label":"paper",
+                    "path":"https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ&hl=ko#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Dko%26user%3Dpma5j2YAAAAJ%26citation_for_view%3Dpma5j2YAAAAJ%3AY0pCki6q_DkC%26tzom%3D240"
+                }
+            ]
         },
         {
-            "id":"smartwatches",
+            "id":"icetc19",
             "title": "Leveraging Smartwatches to Estimate Students' Perceived Difficulty and Interest in Online Video Lectures",
             "authors": "Jinhan Choi, Jeongyun Han, Woochang Hyun, Hyunchul Lim, Sun Young Huh, SoHyun Park, Bongwon Suh",
             "source": "Proceedings of the 2019 11th International Conference on Education Technology and Computers(ICETC), 2019",
             "desc": "Online videos have become a popular medium for delivering educational materials. Analyzing video interaction log can provide valuable educational insights. However, for small-sized online courses, due to the small size of samples, analyzing online log is often not enough for modeling students' learning behaviors. In this study, we aim to explore the feasibility of utilizing commercial smartwatches to augment building of such models. We collected online video interaction log as well as physiological data from smartwatches and built models to estimate the perceived difficulty and interest of students while watching online video lectures. The results show that smartwatch data could significantly improve the amount of explained variance in their perceived difficulty and interest by 100% and 64% respectively. We hope the result could inform the application of a smartwatch for students' in online video learning.",
-            "teaser": "/assets/smartwatches/teaser.png"
+            "teaser": "/assets/icetc19/teaser.png",
+            "materials":[
+                {
+                    "label":"paper",
+                    "path":"https://dl.acm.org/doi/abs/10.1145/3369255.3369291"
+                }
+            ]
         },
         {
-            "id":"cocreation",
+            "id":"chi18",
             "title": "🏅 I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
             "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
             "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2018 Honorable Mention Award",
             "desc": "Recent advances in artificial intelligence (AI) have increased the opportunities for users to interact with the technology. Now, users can even collaborate with AI in creative activities such as art. To understand the user experience in this new user– AI collaboration, we designed a prototype, DuetDraw, an AI interface that allows users and the AI agent to draw pictures collaboratively. We conducted a user study employing both quantitative and qualitative methods. Thirty participants per- formed a series of drawing tasks with the think-aloud method, followed by post-hoc surveys and interviews. Our findings are as follows: (1) Users were significantly more content with DuetDraw when the tool gave detailed instructions. (2) While users always wanted to lead the task, they also wanted the AI to explain its intentions but only when the users wanted it to do so. (3) Although users rated the AI relatively low in predictability, controllability, and comprehensibility, they en- joyed their interactions with it during the task. Based on these findings, we discuss implications for user interfaces where users can collaborate with AI in creative works.",
-            "teaser": "/assets/cocreation/teaser.png"
+            "teaser": "/assets/chi18/teaser.png",
+            "materials":[
+                {
+                    "label":"paper",
+                    "path":"https://dl.acm.org/doi/abs/10.1145/3173574.3174223"
+                }
+            ]
         }
     ]
 }
