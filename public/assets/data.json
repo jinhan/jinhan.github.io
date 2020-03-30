@@ -51,7 +51,7 @@
             "teaser": "/assets/etrd20/teaser.png",
             "materials":[
                 {
-                    "label":"paper",
+                    "label":"PDF",
                     "path":"https://link.springer.com/article/10.1007/s11423-020-09743-y"
                 }
             ]
@@ -65,7 +65,7 @@
             "teaser": "/assets/chi20/teaser.png",
             "materials":[
                 {
-                    "label":"paper",
+                    "label":"PDF",
                     "path":"https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ&hl=ko#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Dko%26user%3Dpma5j2YAAAAJ%26citation_for_view%3Dpma5j2YAAAAJ%3AY0pCki6q_DkC%26tzom%3D240"
                 }
             ]
@@ -79,7 +79,7 @@
             "teaser": "/assets/icetc19/teaser.png",
             "materials":[
                 {
-                    "label":"paper",
+                    "label":"PDF",
                     "path":"https://dl.acm.org/doi/abs/10.1145/3369255.3369291"
                 }
             ]
@@ -88,12 +88,12 @@
             "id":"chi18",
             "title": "🏅 I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
             "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
-            "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2018 Honorable Mention Award",
+            "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2018",
             "desc": "Recent advances in artificial intelligence (AI) have increased the opportunities for users to interact with the technology. Now, users can even collaborate with AI in creative activities such as art. To understand the user experience in this new user– AI collaboration, we designed a prototype, DuetDraw, an AI interface that allows users and the AI agent to draw pictures collaboratively. We conducted a user study employing both quantitative and qualitative methods. Thirty participants per- formed a series of drawing tasks with the think-aloud method, followed by post-hoc surveys and interviews. Our findings are as follows: (1) Users were significantly more content with DuetDraw when the tool gave detailed instructions. (2) While users always wanted to lead the task, they also wanted the AI to explain its intentions but only when the users wanted it to do so. (3) Although users rated the AI relatively low in predictability, controllability, and comprehensibility, they en- joyed their interactions with it during the task. Based on these findings, we discuss implications for user interfaces where users can collaborate with AI in creative works.",
             "teaser": "/assets/chi18/teaser.png",
             "materials":[
                 {
-                    "label":"paper",
+                    "label":"PDF (Honorable Mention Award)",
                     "path":"https://dl.acm.org/doi/abs/10.1145/3173574.3174223"
                 }
             ]
