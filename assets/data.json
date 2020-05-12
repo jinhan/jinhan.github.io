@@ -13,6 +13,10 @@
     },
     "news":[
         {
+            "title": "The \"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" paper won an Honourable Mention Award at DIS 2020.",
+            "date": "May 7, 2020"
+        },
+        {
             "title": "\"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" is accepted to DIS 2020.",
             "date": "Apr 9, 2020"
         },
@@ -48,15 +52,15 @@
     "projects":[
         {
             "id":"dis20",
-            "title": "Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence",
+            "title": "🏅 Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence",
             "authors": "Changhoon Oh, Seonghyeon Kim, Jinhan Choi, Jinsu Eun, Soomin Kim, Juho Kim, Joonhwan Lee, Bongwon Suh",
-            "source": "ACM conference on Designing Interactive Systems (DIS), 2020",
+            "source": "ACM conference on Designing Interactive Systems (DIS), 2020 (Honorable Mention Award)",
             "desc": "Artificial intelligence (AI) algorithms are making remarkable achievements even in creative fields such as aesthetics. However, whether those outside the machine learning (ML) community can sufficiently interpret or agree with their results, especially in such highly subjective domains, is being questioned. In this paper, we try to understand how different user communities reason about AI algorithm results in subjective domains. We designed AI Mirror, a research probe that tells users the algorithmically predicted aesthetic scores of photographs (Figure 1). We conducted a user study of the system with 18 participants from three different groups: AI/ML experts, domain experts (photographers), and general public members. They performed tasks consisting of taking photos and reasoning about AI Mirror’s prediction algorithm with think-aloud sessions, surveys, and interviews. The results showed the following: (1) Users understood the AI using their own group-specific expertise; (2) Users employed various strategies to close the gap between their judgments and AI predictions over time; (3) The difference between users’ thoughts and AI predictions was negatively related with users’ perceptions of the AI’s interpretability and reasonability. We also discuss design considerations for AI-infused systems in subjective domains.",
             "teaser": "/assets/dis20/teaser.png",
             "materials":[
                 {
-                    "label":"PDF",
-                    "path":""
+                    "label":"paper",
+                    "path":"https://dis.acm.org/2020/"
                 }
             ]
         },
@@ -69,7 +73,7 @@
             "teaser": "/assets/etrd20/teaser.png",
             "materials":[
                 {
-                    "label":"PDF",
+                    "label":"paper",
                     "path":"https://link.springer.com/article/10.1007/s11423-020-09743-y"
                 }
             ]
@@ -83,8 +87,8 @@
             "teaser": "/assets/chi20/teaser.png",
             "materials":[
                 {
-                    "label":"PDF",
-                    "path":"https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ&hl=ko#d=gs_md_cita-d&u=%2Fcitations%3Fview_op%3Dview_citation%26hl%3Dko%26user%3Dpma5j2YAAAAJ%26citation_for_view%3Dpma5j2YAAAAJ%3AY0pCki6q_DkC%26tzom%3D240"
+                    "label":"paper",
+                    "path":"https://dl.acm.org/doi/abs/10.1145/3313831.3376811"
                 }
             ]
         },
@@ -97,7 +101,7 @@
             "teaser": "/assets/icetc19/teaser.png",
             "materials":[
                 {
-                    "label":"PDF",
+                    "label":"paper",
                     "path":"https://dl.acm.org/doi/abs/10.1145/3369255.3369291"
                 }
             ]
@@ -106,12 +110,12 @@
             "id":"chi18",
             "title": "🏅 I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
             "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
-            "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2018",
+            "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2018 (Honorable Mention Award)",
             "desc": "Recent advances in artificial intelligence (AI) have increased the opportunities for users to interact with the technology. Now, users can even collaborate with AI in creative activities such as art. To understand the user experience in this new user– AI collaboration, we designed a prototype, DuetDraw, an AI interface that allows users and the AI agent to draw pictures collaboratively. We conducted a user study employing both quantitative and qualitative methods. Thirty participants per- formed a series of drawing tasks with the think-aloud method, followed by post-hoc surveys and interviews. Our findings are as follows: (1) Users were significantly more content with DuetDraw when the tool gave detailed instructions. (2) While users always wanted to lead the task, they also wanted the AI to explain its intentions but only when the users wanted it to do so. (3) Although users rated the AI relatively low in predictability, controllability, and comprehensibility, they en- joyed their interactions with it during the task. Based on these findings, we discuss implications for user interfaces where users can collaborate with AI in creative works.",
             "teaser": "/assets/chi18/teaser.png",
             "materials":[
                 {
-                    "label":"PDF (Honorable Mention Award)",
+                    "label":"paper",
                     "path":"https://dl.acm.org/doi/abs/10.1145/3173574.3174223"
                 }
             ]
