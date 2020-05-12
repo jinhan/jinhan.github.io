@@ -12,7 +12,7 @@ function MainPage() {
             <About about={data.about}/>
             <News news={data.news} />
             <Projects projects={data.projects}/>
-            <footer>© Jinhan Choi | Last Updated: Mar, 2020</footer>
+            <footer>© Jinhan Choi | Last Updated: {data.updated}</footer>
         </React.Fragment>
     );
 }
