@@ -1,125 +1,121 @@
 {
-    "updated": "May, 2020",
-    "about":{
-        "name":"Jinhan Choi",
-        "title":"PhD Candidate in Information Studies @ Seoul National University",
-        "email":"jinhanchoi at snu.ac.kr",
-        "address":"",
-        "photos":["/assets/photos/profile0.png","/assets/photos/profile1.png"],
-        "cv":"/assets/resume.pdf",
-        "linkedin":"https://www.linkedin.com/in/jinhan-choi/",
-        "scholar":"https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ",
-        "github":"https://github.com/jinhan",
-        "description":"I am a Ph.D. candidate in information studies at Seoul National University, South Korea. And I am under the guidance of Prof. Bongwon Suh. I was a research intern in Conversational AI Team at Artificial Intelligence Research Institute in South Korea. My research interests include Human-Computer Interaction, Visualization and Machine Learning."
+  "updated": "Sep, 2021",
+  "about": {
+    "name": "Jinhan Choi",
+    "title": "PhD Candidate in Information Studies @ Seoul National University",
+    "email": "jinhan.choi at bc.edu",
+    "address": "",
+    "photoPath": "/assets/photos/profile1.png",
+    "cv": "/assets/resume.pdf",
+    "linkedIn": "https://www.linkedin.com/in/jinhan-choi/",
+    "googleScholar": "https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ",
+    "github": "https://github.com/jinhan",
+    "description": "Hi, I am a Research Associate in Computer Science at Boston College and Ph.D. Student in Information Studies at Seoul National University, South Korea. My research interests include Human-Computer Interaction and Visualization. \n\n I was a research intern in Conversational AI team at Artificial Intelligence Research Institute (AIRI) in South Korea. I received M.S. in Mechatronics from Gwangju Institute of Science and Technology (GIST) and B.S in Mechanical Engineering and Control Engineering from Handong Global University."
+  },
+  "news": [
+    {
+      "title": "The \"VisLab: Crowdsourcing Visualization Experiments in the Wild\" is accepted to CHI 2021 Late-breaking work.",
+      "date": "Feb 18, 2021"
     },
-    "news":[
-        {
-            "title": "The \"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" paper won an Honourable Mention Award at DIS 2020.",
-            "date": "May 7, 2020"
-        },
-        {
-            "title": "\"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" is accepted to DIS 2020.",
-            "date": "Apr 9, 2020"
-        },
-        {
-            "title": "\"Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation\" is published on Educational Technology Research & Development.",
-            "date": "Feb 10, 2020"
-        },
-        {
-            "title": "\"Understanding User Perception of Automated News Generation System\" is conditionally accepted to CHI 2020.",
-            "date": "Dec 13, 2019"
-        },
-        {
-            "title": "\"Leveraging Smartwatches to Estimate Students’ Perceived Difficulty and Interest in Online Video Lectures\" is accepted to ICETC 2019.",
-            "date": "Aug 5, 2019"
-        },
-        {
-            "title": "Joined the Conversational AI team at Artificial Intelligence Research Institute (AIRI) as a research intern.",
-            "date": "Jan 13, 2019"
-        },
-        {
-            "title": "My team won the First Prize in Movie Review Prediction at NAVER AI Hackathon 2018.",
-            "date": "Apr 27, 2018"
-        },
-        {
-            "title": "The \"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" paper won an Honourable Mention Award at CHI 2018.",
-            "date": "Feb 9, 2018"
-        },
-        {
-            "title": "\"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" is conditionally accepted to CHI 2018.",
-            "date": "Nov 17, 2017"
-        }			
-    ],
-    "projects":[
-        {
-            "id":"dis20",
-            "title": "🏅 Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence",
-            "authors": "Changhoon Oh, Seonghyeon Kim, Jinhan Choi, Jinsu Eun, Soomin Kim, Juho Kim, Joonhwan Lee, Bongwon Suh",
-            "source": "ACM conference on Designing Interactive Systems (DIS), 2020 (Honorable Mention Award)",
-            "desc": "Artificial intelligence (AI) algorithms are making remarkable achievements even in creative fields such as aesthetics. However, whether those outside the machine learning (ML) community can sufficiently interpret or agree with their results, especially in such highly subjective domains, is being questioned. In this paper, we try to understand how different user communities reason about AI algorithm results in subjective domains. We designed AI Mirror, a research probe that tells users the algorithmically predicted aesthetic scores of photographs (Figure 1). We conducted a user study of the system with 18 participants from three different groups: AI/ML experts, domain experts (photographers), and general public members. They performed tasks consisting of taking photos and reasoning about AI Mirror’s prediction algorithm with think-aloud sessions, surveys, and interviews. The results showed the following: (1) Users understood the AI using their own group-specific expertise; (2) Users employed various strategies to close the gap between their judgments and AI predictions over time; (3) The difference between users’ thoughts and AI predictions was negatively related with users’ perceptions of the AI’s interpretability and reasonability. We also discuss design considerations for AI-infused systems in subjective domains.",
-            "teaser": "/assets/dis20/teaser.png",
-            "materials":[
-                {
-                    "label":"paper",
-                    "path":"https://dis.acm.org/2020/"
-                }
-            ]
-        },
-        {
-            "id":"etrd20",
-            "title": "Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation",
-            "authors": "Jeongyun Han, Sun Young Huh, Young Hoan Cho, SoHyun Park, Jinhan Choi, Bongwon Suh, Wonjong Rhee",
-            "source": "Educational Technology Research and Development, 2020",
-            "desc": "This study investigates the possibility of utilizing online learning data to design face-to-face activities in a flipped classroom. We focus on heterogeneous group formation for effective collaborative learning. Fifty-three undergraduate students (18 males, 35 females) participated in this study, and 8 students (3 males, 5 females) among them joined post-study interviews. For this study, a total of 6 student characteristics were used: three demographic characteristics obtained from a simple survey and three academic characteristics captured from online learning data. We define three demographic group heterogeneity variables and three academic group heterogeneity variables, where each variable is calculated using the corresponding student characteristic. In this way, each heterogeneity variables represents a degree of diversity within the group. Then, a two-stage hierarchical regression analysis was conducted to identify the significant group heterogeneity variables that influence face-to-face group achievement. The results show that the academic group heterogeneity variables, which were derived from the online learning data, accounted for a significant proportion of the variance in the group achievement when the demographic group heterogeneity variables were controlled. The interviews also reveal that the academic group heterogeneity indeed affected group interaction and learning outcome. These findings highlight that online learning data can be utilized to obtain relevant information for effective face-to-face activity design in a flipped classroom. Based on the results, we discuss the advantages of this data utilization approach and other implications for face-to-face activity design.",
-            "teaser": "/assets/etrd20/teaser.png",
-            "materials":[
-                {
-                    "label":"paper",
-                    "path":"https://link.springer.com/article/10.1007/s11423-020-09743-y"
-                }
-            ]
-        },
-        {
-            "id":"chi20",
-            "title": "Understanding User Perception of Automated News Generation System",
-            "authors": "Changhoon Oh, Jinhan Choi, Sungwoo Lee, SoHyun Park, Daeryong Kim, Jungwoo Song, Dongwhan Kim, Joonhwan Lee, Bongwon Suh",
-            "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2020",
-            "desc": "Automated journalism refers to the generation of news arti- cles using computer programs. Although it is widely used in practice, its user experience and interface design remain largely unexplored. To understand the user perception of an automated news system, we designed NewsRobot, a research prototype that automatically generated news on major events of the PyeongChang 2018 Winter Olympic Games in real-time. It produces six types of news by combining two kinds of con- tent (general/individualized) and three styles (text, text+image, text+image+sound). A total of 30 users participated in us- ing NewsRobot, completing surveys and interviews on their experience. Our findings are as follows: (1) Users preferred individualized news yet considered it less credible, (2) more presentation elements were appreciated but only if their qual- ity was assured, and (3) NewsRobot was considered factual and accurate yet shallow in depth. Based on our findings, we discuss implications for designing automated journalism user interfaces.",
-            "teaser": "/assets/chi20/teaser.png",
-            "materials":[
-                {
-                    "label":"paper",
-                    "path":"https://dl.acm.org/doi/abs/10.1145/3313831.3376811"
-                }
-            ]
-        },
-        {
-            "id":"icetc19",
-            "title": "Leveraging Smartwatches to Estimate Students' Perceived Difficulty and Interest in Online Video Lectures",
-            "authors": "Jinhan Choi, Jeongyun Han, Woochang Hyun, Hyunchul Lim, Sun Young Huh, SoHyun Park, Bongwon Suh",
-            "source": "Proceedings of the 2019 11th International Conference on Education Technology and Computers (ICETC), 2019",
-            "desc": "Online videos have become a popular medium for delivering educational materials. Analyzing video interaction log can provide valuable educational insights. However, for small-sized online courses, due to the small size of samples, analyzing online log is often not enough for modeling students' learning behaviors. In this study, we aim to explore the feasibility of utilizing commercial smartwatches to augment building of such models. We collected online video interaction log as well as physiological data from smartwatches and built models to estimate the perceived difficulty and interest of students while watching online video lectures. The results show that smartwatch data could significantly improve the amount of explained variance in their perceived difficulty and interest by 100% and 64% respectively. We hope the result could inform the application of a smartwatch for students' in online video learning.",
-            "teaser": "/assets/icetc19/teaser.png",
-            "materials":[
-                {
-                    "label":"paper",
-                    "path":"https://dl.acm.org/doi/abs/10.1145/3369255.3369291"
-                }
-            ]
-        },
-        {
-            "id":"chi18",
-            "title": "🏅 I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
-            "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
-            "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2018 (Honorable Mention Award)",
-            "desc": "Recent advances in artificial intelligence (AI) have increased the opportunities for users to interact with the technology. Now, users can even collaborate with AI in creative activities such as art. To understand the user experience in this new user– AI collaboration, we designed a prototype, DuetDraw, an AI interface that allows users and the AI agent to draw pictures collaboratively. We conducted a user study employing both quantitative and qualitative methods. Thirty participants per- formed a series of drawing tasks with the think-aloud method, followed by post-hoc surveys and interviews. Our findings are as follows: (1) Users were significantly more content with DuetDraw when the tool gave detailed instructions. (2) While users always wanted to lead the task, they also wanted the AI to explain its intentions but only when the users wanted it to do so. (3) Although users rated the AI relatively low in predictability, controllability, and comprehensibility, they en- joyed their interactions with it during the task. Based on these findings, we discuss implications for user interfaces where users can collaborate with AI in creative works.",
-            "teaser": "/assets/chi18/teaser.png",
-            "materials":[
-                {
-                    "label":"paper",
-                    "path":"https://dl.acm.org/doi/abs/10.1145/3173574.3174223"
-                }
-            ]
-        }
-    ]
+    {
+      "title": "The \"Toward a Unified Framework for Visualization Design Guidelines\" is accepted to CHI 2021 Late-breaking work.",
+      "date": "Feb 18, 2021"
+    },
+    {
+      "title": "The \"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" paper won an Honourable Mention Award at DIS 2020.",
+      "date": "May 7, 2020"
+    },
+    {
+      "title": "\"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" is accepted to DIS 2020.",
+      "date": "Apr 9, 2020"
+    },
+    {
+      "title": "\"Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation\" is published on Educational Technology Research & Development.",
+      "date": "Feb 10, 2020"
+    },
+    {
+      "title": "\"Understanding User Perception of Automated News Generation System\" is conditionally accepted to CHI 2020.",
+      "date": "Dec 13, 2019"
+    },
+    {
+      "title": "\"Leveraging Smartwatches to Estimate Students’ Perceived Difficulty and Interest in Online Video Lectures\" is accepted to ICETC 2019.",
+      "date": "Aug 5, 2019"
+    },
+    {
+      "title": "Joined the Conversational AI team at Artificial Intelligence Research Institute (AIRI) as a research intern.",
+      "date": "Jan 13, 2019"
+    },
+    {
+      "title": "My team won the First Prize in Movie Review Prediction at NAVER AI Hackathon 2018.",
+      "date": "Apr 27, 2018"
+    },
+    {
+      "title": "The \"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" paper won an Honourable Mention Award at CHI 2018.",
+      "date": "Feb 9, 2018"
+    },
+    {
+      "title": "\"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" is conditionally accepted to CHI 2018.",
+      "date": "Nov 17, 2017"
+    }
+  ],
+  "projects": [
+    {
+      "id": "chi21vislab",
+      "title": "VisLab: Crowdsourcing Visualization Experiments in the Wild",
+      "authors": "Jinhan Choi, Changhoon Oh, Bongwon Suh, Nam Wook Kim",
+      "source": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems",
+      "teaser": "/assets/chi21vislab/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3411763.3451826"
+    },
+    {
+      "id": "chi21guide",
+      "title": "Toward a Unified Framework for Visualization Design Guidelines",
+      "authors": "Jinhan Choi*, Changhoon Oh*, Bongwon Suh, Nam Wook Kim",
+      "source": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems",
+      "teaser": "/assets/chi21guide/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3411763.3451702"
+    },
+    {
+      "id": "dis20",
+      "title": "Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence",
+      "authors": "Changhoon Oh, Seonghyeon Kim, Jinhan Choi, Jinsu Eun, Soomin Kim, Juho Kim, Joonhwan Lee, Bongwon Suh",
+      "source": "ACM conference on Designing Interactive Systems (DIS), 2020",
+      "teaser": "/assets/dis20/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3357236.3395430",
+      "award": "Honorable Mention Award"
+    },
+    {
+      "id": "etrd20",
+      "title": "Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation",
+      "authors": "Jeongyun Han, Sun Young Huh, Young Hoan Cho, SoHyun Park, Jinhan Choi, Bongwon Suh, Wonjong Rhee",
+      "source": "Educational Technology Research and Development, 2020",
+      "teaser": "/assets/etrd20/teaser.png",
+      "path": "https://link.springer.com/article/10.1007/s11423-020-09743-y"
+    },
+    {
+      "id": "chi20",
+      "title": "Understanding User Perception of Automated News Generation System",
+      "authors": "Changhoon Oh, Jinhan Choi, Sungwoo Lee, SoHyun Park, Daeryong Kim, Jungwoo Song, Dongwhan Kim, Joonhwan Lee, Bongwon Suh",
+      "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2020",
+      "teaser": "/assets/chi20/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3313831.3376811"
+    },
+    {
+      "id": "icetc19",
+      "title": "Leveraging Smartwatches to Estimate Students' Perceived Difficulty and Interest in Online Video Lectures",
+      "authors": "Jinhan Choi, Jeongyun Han, Woochang Hyun, Hyunchul Lim, Sun Young Huh, SoHyun Park, Bongwon Suh",
+      "source": "Proceedings of the 2019 11th International Conference on Education Technology and Computers (ICETC), 2019",
+      "teaser": "/assets/icetc19/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3369255.3369291"
+    },
+    {
+      "id": "chi18",
+      "title": "I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
+      "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
+      "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2018",
+      "teaser": "/assets/chi18/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3173574.3174223",
+      "award": "Honorable Mention Award"
+    }
+  ]
 }
