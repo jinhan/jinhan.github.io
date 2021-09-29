@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Box, Typography, Chip } from '@mui/material';
+import { Grid, Box, Button, Chip } from '@mui/material';
+import { styled } from '@mui/styles';
 
 type IProjectItem = {
   id: string;
@@ -15,6 +16,15 @@ type ProjectsProps = {
   projects: Array<IProjectItem>;
 };
 
+const LinkButton = styled(Button)(({ theme }) => ({
+  color: "#808080",
+  '&:hover': {
+    backgroundColor: "#fed8b1",
+  },
+  textTransform: "none",
+  fontSize: "15px",
+}));
+
 const Projects: React.FC<ProjectsProps> = (props) => {
   return (
     <Grid container spacing={3} marginLeft={2} marginRight={2}>
@@ -24,7 +34,10 @@ const Projects: React.FC<ProjectsProps> = (props) => {
         </Box>
       </Grid>
       <Grid item container spacing={3}>
-        {props.projects && props.projects.map((project) => <ProjectItem {...project} />)}
+        {props.projects &&
+          props.projects.map((project, i) => (
+              <ProjectItem key={project.id} {...project} />
+          ))}
       </Grid>
     </Grid>
   );
@@ -46,20 +59,20 @@ const ProjectItem: React.FC<IProjectItem> = ({
   award,
 }) => {
   return (
-    <Grid item container direction="row" spacing={3} key={id}>
+    <Grid item container direction="row" spacing={3}>
       <Grid item xs={2}>
-        <img alt="publication-teaser" src={teaser} width="100%" />
+        <img alt="publication-teaser" src={teaser} width="100%" style={{ maxHeight: '100px' }} />
       </Grid>
 
       <Grid container item xs alignItems="left" direction="column" spacing={0.5}>
         <Grid item xs>
           <Box fontWeight="fontWeightBold">{title}</Box>
         </Grid>
-        {/* {fnAuthors(authors)} */}
+
         <Grid item xs>
           <div dangerouslySetInnerHTML={{ __html: fnAuthors(authors) }} />
-          {/* {fnAuthors(authors)} */}
         </Grid>
+
         <Grid item xs>
           <Box fontStyle="italic">{source}</Box>
         </Grid>
@@ -71,6 +84,7 @@ const ProjectItem: React.FC<IProjectItem> = ({
                 size="small"
                 color="primary"
                 label={award}
+                icon={<i className="fas fa-award"></i>}
                 style={{ color: 'white', fontWeight: 'bold' }}
               />
             </Box>
@@ -78,12 +92,13 @@ const ProjectItem: React.FC<IProjectItem> = ({
         )}
 
         <Grid item xs>
-          <Box component="span">
-            <a href={path} target="_blank" rel="noreferrer">
-              <i className="fas fa-file-alt"></i>
-              <Typography variant="button"> paper</Typography>
-            </a>
-          </Box>
+        <LinkButton
+          size="small"
+          onClick={() => window.open(path, '_blank')}
+          startIcon={<i className="fas fa-file-alt"></i>}
+        >Paper
+        </LinkButton>
+        {/* <a rel="noopener noreferrer" target="_blank" href={path}><i className="fas fa-file-alt"></i> paper</a> */}
         </Grid>
       </Grid>
     </Grid>
