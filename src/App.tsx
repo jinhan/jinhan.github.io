@@ -21,7 +21,6 @@ const App = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(data);
 
   return (
     <Container maxWidth="lg">
