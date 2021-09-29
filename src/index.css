@@ -9,19 +9,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-a {
-  text-decoration: none;
-  color: #808080;
-  /* color: black; */
-  /* text-decoration-color: #B3E5FC; */
-  /* text-decoration-color: blue; */
-  /* text-decoration: underline; */
-  /* text-decoration-style: dotted; */
-  /* background-color: #B3E5FC; */
-  transition: background-color 0.2s;
-}
-a:hover {
-  text-decoration: none;
-  background-color: #fed8b1;
-}
