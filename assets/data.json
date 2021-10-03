@@ -1,0 +1,121 @@
+{
+  "updated": "Sep, 2021",
+  "about": {
+    "name": "Jinhan Choi",
+    "title": "PhD Candidate in Information Studies @ Seoul National University",
+    "email": "jinhan.choi at bc.edu",
+    "address": "",
+    "photoPath": "/assets/photos/profile1.png",
+    "cv": "/assets/resume.pdf",
+    "linkedIn": "https://www.linkedin.com/in/jinhan-choi/",
+    "googleScholar": "https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ",
+    "github": "https://github.com/jinhan",
+    "description": "Hi, I am a Research Associate in Computer Science at Boston College and Ph.D. Student in Information Studies at Seoul National University, South Korea. My research interests include Human-Computer Interaction and Visualization. \n\n I was a research intern in Conversational AI team at Artificial Intelligence Research Institute (AIRI) in South Korea. I received M.S. in Mechatronics from Gwangju Institute of Science and Technology (GIST) and B.S in Mechanical Engineering and Control Engineering from Handong Global University."
+  },
+  "news": [
+    {
+      "title": "The \"VisLab: Crowdsourcing Visualization Experiments in the Wild\" is accepted to CHI 2021 Late-breaking work.",
+      "date": "Feb 18, 2021"
+    },
+    {
+      "title": "The \"Toward a Unified Framework for Visualization Design Guidelines\" is accepted to CHI 2021 Late-breaking work.",
+      "date": "Feb 18, 2021"
+    },
+    {
+      "title": "The \"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" paper won an Honourable Mention Award at DIS 2020.",
+      "date": "May 7, 2020"
+    },
+    {
+      "title": "\"Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence\" is accepted to DIS 2020.",
+      "date": "Apr 9, 2020"
+    },
+    {
+      "title": "\"Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation\" is published on Educational Technology Research & Development.",
+      "date": "Feb 10, 2020"
+    },
+    {
+      "title": "\"Understanding User Perception of Automated News Generation System\" is conditionally accepted to CHI 2020.",
+      "date": "Dec 13, 2019"
+    },
+    {
+      "title": "\"Leveraging Smartwatches to Estimate Students’ Perceived Difficulty and Interest in Online Video Lectures\" is accepted to ICETC 2019.",
+      "date": "Aug 5, 2019"
+    },
+    {
+      "title": "Joined the Conversational AI team at Artificial Intelligence Research Institute (AIRI) as a research intern.",
+      "date": "Jan 13, 2019"
+    },
+    {
+      "title": "My team won the First Prize in Movie Review Prediction at NAVER AI Hackathon 2018.",
+      "date": "Apr 27, 2018"
+    },
+    {
+      "title": "The \"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" paper won an Honourable Mention Award at CHI 2018.",
+      "date": "Feb 9, 2018"
+    },
+    {
+      "title": "\"I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence\" is conditionally accepted to CHI 2018.",
+      "date": "Nov 17, 2017"
+    }
+  ],
+  "projects": [
+    {
+      "id": "chi21vislab",
+      "title": "VisLab: Crowdsourcing Visualization Experiments in the Wild",
+      "authors": "Jinhan Choi, Changhoon Oh, Bongwon Suh, Nam Wook Kim",
+      "source": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems",
+      "teaser": "/assets/chi21vislab/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3411763.3451826"
+    },
+    {
+      "id": "chi21guide",
+      "title": "Toward a Unified Framework for Visualization Design Guidelines",
+      "authors": "Jinhan Choi*, Changhoon Oh*, Bongwon Suh, Nam Wook Kim",
+      "source": "Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems",
+      "teaser": "/assets/chi21guide/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3411763.3451702"
+    },
+    {
+      "id": "dis20",
+      "title": "Understanding How People Reason about Aesthetic Evaluations of Artificial Intelligence",
+      "authors": "Changhoon Oh, Seonghyeon Kim, Jinhan Choi, Jinsu Eun, Soomin Kim, Juho Kim, Joonhwan Lee, Bongwon Suh",
+      "source": "ACM conference on Designing Interactive Systems (DIS), 2020",
+      "teaser": "/assets/dis20/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3357236.3395430",
+      "award": "Honorable Mention Award"
+    },
+    {
+      "id": "etrd20",
+      "title": "Utilizing online learning data to design face-to-face activities in a flipped classroom: a case study of heterogeneous group formation",
+      "authors": "Jeongyun Han, Sun Young Huh, Young Hoan Cho, SoHyun Park, Jinhan Choi, Bongwon Suh, Wonjong Rhee",
+      "source": "Educational Technology Research and Development, 2020",
+      "teaser": "/assets/etrd20/teaser.png",
+      "path": "https://link.springer.com/article/10.1007/s11423-020-09743-y"
+    },
+    {
+      "id": "chi20",
+      "title": "Understanding User Perception of Automated News Generation System",
+      "authors": "Changhoon Oh, Jinhan Choi, Sungwoo Lee, SoHyun Park, Daeryong Kim, Jungwoo Song, Dongwhan Kim, Joonhwan Lee, Bongwon Suh",
+      "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2020",
+      "teaser": "/assets/chi20/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3313831.3376811"
+    },
+    {
+      "id": "icetc19",
+      "title": "Leveraging Smartwatches to Estimate Students' Perceived Difficulty and Interest in Online Video Lectures",
+      "authors": "Jinhan Choi, Jeongyun Han, Woochang Hyun, Hyunchul Lim, Sun Young Huh, SoHyun Park, Bongwon Suh",
+      "source": "Proceedings of the 2019 11th International Conference on Education Technology and Computers (ICETC), 2019",
+      "teaser": "/assets/icetc19/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3369255.3369291"
+    },
+    {
+      "id": "chi18",
+      "title": "I Lead, You Help But Only with Enough Details: Understanding the User Experience of Co-Creation with Artificial Intelligence",
+      "authors": "Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, Bongwon Suh",
+      "source": "ACM Conference on Human Factors in Computing Systems (CHI), 2018",
+      "teaser": "/assets/chi18/teaser.png",
+      "path": "https://dl.acm.org/doi/abs/10.1145/3173574.3174223",
+      "award": "Honorable Mention Award"
+    }
+  ]
+}
