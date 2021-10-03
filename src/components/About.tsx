@@ -1,22 +1,22 @@
 import React from "react";
 // import css from '../index.css';
-import { Grid, Box, Typography, Button } from "@mui/material";
+import { Grid, Box, Typography, Button, Paper } from "@mui/material";
 import { makeStyles, styled } from "@mui/styles";
 
-const useStyles = makeStyles((theme) => ({
-  circularPortrait: {
-    position: "relative",
-    width: "20vw",
-    height: "20vw",
-    overflow: "hidden",
-    borderRadius: "50%",
-  },
-  circularPortraitImg: {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   circularPortrait: {
+//     position: "relative",
+//     width: "20vw",
+//     height: "20vw",
+//     overflow: "hidden",
+//     borderRadius: "50%",
+//   },
+//   circularPortraitImg: {
+//     width: "100%",
+//     height: "100%",
+//     objectFit: "cover",
+//   },
+// }));
 
 type AboutProps = {
   email: string;
@@ -46,12 +46,12 @@ const About: React.FC<AboutProps> = ({
   github,
   googleScholar,
 }) => {
-  const classes = useStyles();
+  // const classes = useStyles();
 
   return (
     <Grid container spacing={3}>
       <Grid item container direction="row" spacing={5}>
-        <Grid item xs={3}>
+        {/* <Grid item xs={3} style={{ maxWidth: "20vw", maxHeight: "20vw" }}>
           <div
             className={classes.circularPortrait}
             style={{ marginTop: "20px" }}
@@ -62,8 +62,8 @@ const About: React.FC<AboutProps> = ({
               className={classes.circularPortraitImg}
             />
           </div>
-        </Grid>
-        <Grid item xs={9} alignItems="left">
+        </Grid> */}
+        <Grid item xs alignItems="left">
           <Box
             fontWeight="fontWeightBold"
             fontSize="h4.fontSize"
