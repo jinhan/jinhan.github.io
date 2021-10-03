@@ -63,7 +63,7 @@ const About: React.FC<AboutProps> = ({
             />
           </div>
         </Grid>
-        <Grid item xs alignItems="left">
+        <Grid item xs={9} alignItems="left">
           <Box
             fontWeight="fontWeightBold"
             fontSize="h4.fontSize"

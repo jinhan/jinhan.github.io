@@ -1,6 +1,6 @@
-import React from 'react';
-import { Grid, Box, Button, Chip } from '@mui/material';
-import { styled } from '@mui/styles';
+import React from "react";
+import { Grid, Box, Button, Chip } from "@mui/material";
+import { styled } from "@mui/styles";
 
 type IProjectItem = {
   id: string;
@@ -18,7 +18,7 @@ type ProjectsProps = {
 
 const LinkButton = styled(Button)(({ theme }) => ({
   color: "#808080",
-  '&:hover': {
+  "&:hover": {
     backgroundColor: "#fed8b1",
   },
   textTransform: "none",
@@ -27,7 +27,7 @@ const LinkButton = styled(Button)(({ theme }) => ({
 
 const Projects: React.FC<ProjectsProps> = (props) => {
   return (
-    <Grid container spacing={3} marginLeft={2} marginRight={2}>
+    <Grid container spacing={3}>
       <Grid item>
         <Box fontWeight="fontWeightBold" fontSize="h5.fontSize">
           Publications
@@ -36,7 +36,7 @@ const Projects: React.FC<ProjectsProps> = (props) => {
       <Grid item container spacing={3}>
         {props.projects &&
           props.projects.map((project, i) => (
-              <ProjectItem key={project.id} {...project} />
+            <ProjectItem key={project.id} {...project} />
           ))}
       </Grid>
     </Grid>
@@ -44,9 +44,12 @@ const Projects: React.FC<ProjectsProps> = (props) => {
 };
 
 const fnAuthors = (authors: string) => {
-  const newAuthors = authors.replace('Jinhan Choi', '<strong>Jinhan Choi</strong>');
+  const newAuthors = authors.replace(
+    "Jinhan Choi",
+    "<strong>Jinhan Choi</strong>"
+  );
 
-  return '<Box component="div">' + newAuthors + '</Box>';
+  return '<Box component="div">' + newAuthors + "</Box>";
 };
 
 const ProjectItem: React.FC<IProjectItem> = ({
@@ -61,10 +64,22 @@ const ProjectItem: React.FC<IProjectItem> = ({
   return (
     <Grid item container direction="row" spacing={3}>
       <Grid item xs={2}>
-        <img alt="publication-teaser" src={teaser} width="100%" style={{ maxHeight: '100px' }} />
+        <img
+          alt="publication-teaser"
+          src={teaser}
+          width="100%"
+          style={{ maxHeight: "100px" }}
+        />
       </Grid>
 
-      <Grid container item xs alignItems="left" direction="column" spacing={0.5}>
+      <Grid
+        container
+        item
+        xs
+        alignItems="left"
+        direction="column"
+        spacing={0.5}
+      >
         <Grid item xs>
           <Box fontWeight="fontWeightBold">{title}</Box>
         </Grid>
@@ -85,20 +100,21 @@ const ProjectItem: React.FC<IProjectItem> = ({
                 color="primary"
                 label={award}
                 icon={<i className="fas fa-award"></i>}
-                style={{ color: 'white', fontWeight: 'bold' }}
+                style={{ color: "white", fontWeight: "bold" }}
               />
             </Box>
           </Grid>
         )}
 
         <Grid item xs>
-        <LinkButton
-          size="small"
-          onClick={() => window.open(path, '_blank')}
-          startIcon={<i className="fas fa-file-alt"></i>}
-        >Paper
-        </LinkButton>
-        {/* <a rel="noopener noreferrer" target="_blank" href={path}><i className="fas fa-file-alt"></i> paper</a> */}
+          <LinkButton
+            size="small"
+            onClick={() => window.open(path, "_blank")}
+            startIcon={<i className="fas fa-file-alt"></i>}
+          >
+            Paper
+          </LinkButton>
+          {/* <a rel="noopener noreferrer" target="_blank" href={path}><i className="fas fa-file-alt"></i> paper</a> */}
         </Grid>
       </Grid>
     </Grid>
