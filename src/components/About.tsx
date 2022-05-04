@@ -1,7 +1,7 @@
 import React from "react";
 // import css from '../index.css';
-import { Grid, Box, Typography, Button, Paper } from "@mui/material";
-import { makeStyles, styled } from "@mui/styles";
+import { Grid, Box, Typography, Button } from "@mui/material";
+import { styled } from "@mui/styles";
 
 // const useStyles = makeStyles((theme) => ({
 //   circularPortrait: {
@@ -26,6 +26,7 @@ type AboutProps = {
   linkedIn: string;
   github: string;
   googleScholar: string;
+  cv: string;
 };
 
 const LinkButton = styled(Button)(({ theme }) => ({
@@ -45,6 +46,7 @@ const About: React.FC<AboutProps> = ({
   linkedIn,
   github,
   googleScholar,
+  cv,
 }) => {
   // const classes = useStyles();
 
@@ -79,6 +81,14 @@ const About: React.FC<AboutProps> = ({
             <Box component="span">
               <LinkButton startIcon={<i className="fas fa-envelope"></i>}>
                 {email}
+              </LinkButton>
+            </Box>
+            <Box component="span">
+              <LinkButton
+                onClick={() => window.open(cv, "_blank")}
+                startIcon={<i className="fas fa-file-alt"></i>}
+              >
+                CV
               </LinkButton>
             </Box>
             <Box component="span" marginLeft={2}>

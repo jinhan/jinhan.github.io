@@ -1,6 +1,31 @@
 import React from "react";
 import { Grid, Box, Button, Chip } from "@mui/material";
-import { styled } from "@mui/styles";
+import { makeStyles, styled } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  teaserImg: {
+    position: "absolute",
+    // left: "0",
+    backgroundPosition: "left",
+    // "-webkit-transform": "scale(1)",
+    // transform: "scale(1)",
+    // "-webkit-transition": ".5s ease-in-out",
+    // transition: ".5s ease-in-out",
+    "-webkit-transition": "all 2s",
+    "&:hover": {
+      // left: "-50vw",
+      backgroundPosition: "right",
+    },
+  },
+  figure: {
+    position: "relative",
+    height: "100%",
+    width: "auto",
+    margin: 0,
+    padding: 0,
+    overflow: "hidden",
+  },
+}));
 
 type IProjectItem = {
   id: string;
@@ -61,15 +86,25 @@ const ProjectItem: React.FC<IProjectItem> = ({
   path,
   award,
 }) => {
+  const classes = useStyles();
+
   return (
     <Grid item container direction="row" spacing={3}>
-      <Grid item xs={2}>
-        <img
-          alt="publication-teaser"
-          src={teaser}
-          width="100%"
-          style={{ maxHeight: "100px" }}
-        />
+      <Grid item xs={2} alignItems="left">
+        <div className={classes.figure}>
+          <div
+            // alt="publication-teaser"
+            // src={teaser}
+            // width="100%"
+            style={{
+              // backgroundImage: `url(${process.env.PUBLIC_URL + teaser})`,
+              backgroundImage: `url($("../.." + teaser)})`,
+              backgroundRepeat: "no-repeat",
+              maxHeight: "110px",
+            }}
+            className={classes.teaserImg}
+          ></div>
+        </div>
       </Grid>
 
       <Grid
