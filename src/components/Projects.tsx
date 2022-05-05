@@ -87,23 +87,28 @@ const ProjectItem: React.FC<IProjectItem> = ({
   award,
 }) => {
   const classes = useStyles();
+  console.log(teaser);
 
   return (
     <Grid item container direction="row" spacing={3}>
       <Grid item xs={2} alignItems="left">
         <div className={classes.figure}>
-          <div
+          {/* <div
             // alt="publication-teaser"
             // src={teaser}
             // width="100%"
             style={{
-              // backgroundImage: `url(${process.env.PUBLIC_URL + teaser})`,
-              backgroundImage: `url($("../.." + teaser)})`,
+              // backgroundImage: `url($(process.env.PUBLIC_URL + teaser))`,
+              // backgroundImage: `url($("../.." + teaser)})`,
+              // backgroundImage: `url($("../" + teaser)})`,
+              // background: `url('${process.env.PUBLIC_URL + teaser}')`,
+              backgroundImage: `url("/images/500.png")`,
               backgroundRepeat: "no-repeat",
               maxHeight: "110px",
             }}
             className={classes.teaserImg}
-          ></div>
+          ></div> */}
+          <img src={teaser} style={{ width: "100%", maxHeight: "110px" }} />
         </div>
       </Grid>
 
