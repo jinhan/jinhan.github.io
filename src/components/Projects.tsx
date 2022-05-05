@@ -100,9 +100,6 @@ const ProjectItem: React.FC<IProjectItem> = ({
             style={{
               // backgroundImage: `url($(process.env.PUBLIC_URL + teaser))`,
               // backgroundImage: `url($("../.." + teaser)})`,
-              // backgroundImage: `url($("../" + teaser)})`,
-              // background: `url('${process.env.PUBLIC_URL + teaser}')`,
-              backgroundImage: `url("/images/500.png")`,
               backgroundRepeat: "no-repeat",
               maxHeight: "110px",
             }}
