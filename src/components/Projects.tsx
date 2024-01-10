@@ -1,6 +1,6 @@
 import React from "react";
-import { Grid, Box, Button, Chip } from "@mui/material";
-import { makeStyles, styled } from "@mui/styles";
+import {Grid, Box, Button, Chip} from "@mui/material";
+import {makeStyles, styled} from "@mui/styles";
 
 const useStyles = makeStyles((theme) => ({
   teaserImg: {
@@ -35,13 +35,15 @@ type IProjectItem = {
   teaser: string;
   path: string;
   award: string;
+  project: string;
+  video: string;
 };
 
 type ProjectsProps = {
   projects: Array<IProjectItem>;
 };
 
-const LinkButton = styled(Button)(({ theme }) => ({
+const LinkButton = styled(Button)(({theme}) => ({
   color: "#808080",
   "&:hover": {
     backgroundColor: "#fed8b1",
@@ -85,9 +87,11 @@ const ProjectItem: React.FC<IProjectItem> = ({
   teaser,
   path,
   award,
+  project,
+  video,
 }) => {
   const classes = useStyles();
-  console.log(teaser);
+  // console.log(teaser);
 
   return (
     <Grid item container direction="row" spacing={3}>
@@ -105,7 +109,7 @@ const ProjectItem: React.FC<IProjectItem> = ({
             }}
             className={classes.teaserImg}
           ></div> */}
-          <img src={teaser} style={{ width: "100%", maxHeight: "110px" }} />
+          <img src={teaser} style={{width: "100%", maxHeight: "110px"}} />
         </div>
       </Grid>
 
@@ -122,7 +126,7 @@ const ProjectItem: React.FC<IProjectItem> = ({
         </Grid>
 
         <Grid item xs>
-          <div dangerouslySetInnerHTML={{ __html: fnAuthors(authors) }} />
+          <div dangerouslySetInnerHTML={{__html: fnAuthors(authors)}} />
         </Grid>
 
         <Grid item xs>
@@ -137,7 +141,7 @@ const ProjectItem: React.FC<IProjectItem> = ({
                 color="primary"
                 label={award}
                 icon={<i className="fas fa-award"></i>}
-                style={{ color: "white", fontWeight: "bold" }}
+                style={{color: "white", fontWeight: "bold"}}
               />
             </Box>
           </Grid>
@@ -149,9 +153,26 @@ const ProjectItem: React.FC<IProjectItem> = ({
             onClick={() => window.open(path, "_blank")}
             startIcon={<i className="fas fa-file-alt"></i>}
           >
-            Paper
+            paper
           </LinkButton>
-          {/* <a rel="noopener noreferrer" target="_blank" href={path}><i className="fas fa-file-alt"></i> paper</a> */}
+          {project && (
+            <LinkButton
+              size="small"
+              onClick={() => window.open(project, "_blank")}
+              startIcon={<i className="fas fa-globe"></i>}
+            >
+              project
+            </LinkButton>
+          )}
+          {video && (
+            <LinkButton
+              size="small"
+              onClick={() => window.open(video, "_blank")}
+              startIcon={<i className="fas fa-video"></i>}
+            >
+              video
+            </LinkButton>
+          )}
         </Grid>
       </Grid>
     </Grid>
