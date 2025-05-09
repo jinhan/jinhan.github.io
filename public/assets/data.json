@@ -1,5 +1,5 @@
 {
-  "updated": "Jan, 2024",
+  "updated": "May, 2025",
   "about": {
     "name": "Jinhan Choi",
     "title": "Computer Scientist at Harvard University",
@@ -11,14 +11,14 @@
     "linkedIn": "https://www.linkedin.com/in/jinhan-choi/",
     "googleScholar": "https://scholar.google.co.kr/citations?user=pma5j2YAAAAJ",
     "github": "https://github.com/jinhan",
-    "description": "Hi, I am Jinhan Choi. I am a computer scientist at the Lichtman Lab in the Department of Molecular and Cellular Biology at Harvard University. I'm developing and maintaining software that allows online rendering and proofreading of connectomic segmentations and annotations for large-volume serial electron microscopy datasets, including human and zebrafish. \n\n Before at Harvard, I was a senior research associate of the Computer Science Department at Boston College and a research assistant at Seoul National University. I was a research intern in the Conversational AI team at Artificial Intelligence Research Institute in South Korea. I received an M.S. in Mechatronics from Gwangju Institute of Science and Technology and a B.S. in Mechanical Engineering and Control Engineering from Handong Global University.\n\n My research interests include Human-Computer Interaction, Visualization, and Connectomics."
+    "description": "Hi, I am Jinhan Choi. I am a computer scientist at the Lichtman Lab in the Department of Molecular and Cellular Biology at Harvard University. I'm developing and maintaining software that allows online rendering and proofreading of connectomic segmentations and annotations for large-volume serial electron microscopy datasets, including human and zebrafish. \n\n Before at Harvard, I was a senior research associate of the Computer Science Department at Boston College and a research assistant at Seoul National University. I was a research intern in the Conversational AI team at Artificial Intelligence Research Institute in South Korea. I received an M.S. in Mechatronics from Gwangju Institute of Science and Technology and a B.S. in Mechanical Engineering and Control Engineering from Handong Global University.\n\n"
   },
   "projects": [
     {
       "id": "arx23lost",
-      "title": "Lost in Visualization: Investigating the Knowledge Gap between Visualization Research and Practice",
+      "title": "Bridging the Divide: Unraveling the Knowledge Gap in Data Visualization Research and Practice",
       "authors": "Nam Wook Kim, Grace Myers, Jinhan Choi, Yoonsuh Cho, Changhoon Oh, Yea-Seul Kim",
-      "source": "arXiv, 2023",
+      "source": "arXiv, 2024",
       "teaser": "/assets/arx23lost/teaser.png",
       "path": "https://arxiv.org/pdf/2310.09614"
     },
